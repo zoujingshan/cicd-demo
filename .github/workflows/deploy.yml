@@ -25,4 +25,4 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: root  # 假设你的构建输出目录是 dist 文件夹，根据实际情况调整
+          folder: dist  # 假设你的构建输出目录是 dist 文件夹，根据实际情况调整
